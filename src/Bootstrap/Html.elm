@@ -1,4 +1,4 @@
-module Bootstrap.Html where
+module Bootstrap.Html exposing (..)
 
 {-| Shorthand for Bootstrap Html.
 
@@ -315,11 +315,9 @@ See [elm-bootstrap-dropdown](https://github.com/circuithub/elm-bootstrap-dropdow
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Shorthand exposing (..)
 import String
 import Maybe
 import List exposing ((::))
-import Signal exposing (Address)
 import Bootstrap.Html.Internal as Internal
 
 -- CSS

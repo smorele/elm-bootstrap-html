@@ -1,4 +1,4 @@
-module Bootstrap.Html.Internal where
+module Bootstrap.Html.Internal exposing (..)
 {-| Internals for Bootstrap.Html See [Bootstrap.Html](http://package.elm-lang.org/packages/circuithub/elm-bootstrap-html/latest/Bootstrap-Html)
 
 @docs BtnParam, btnc, btncNoevent, colOffset
@@ -7,13 +7,11 @@ module Bootstrap.Html.Internal where
 --import String
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Shorthand exposing (..)
 import Html.Events as Html exposing (on)
 import Json.Decode as Json
 import String
 import List exposing ((::))
 import Maybe
-import Signal exposing (Address)
 
 --appendWithSpace : String -> String -> String
 --appendWithSpace x y = x ++ ' ' `String.cons` y
